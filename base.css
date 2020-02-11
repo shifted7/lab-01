@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    width:480px;
+    margin: auto;
+}
+
+header, aside, section, article, footer {
+    width: 480px;
+    float: left;
+    border: 1px solid;
+}

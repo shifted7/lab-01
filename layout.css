@@ -1,0 +1,68 @@
+header {
+    height: 75px;
+    line-height: 75px;
+}
+
+aside {
+    height: 150px;
+    line-height: 150px;
+}
+
+section {
+    height: 125px;
+    line-height: 125px;
+}
+
+article {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+}
+
+footer {
+    height:80px;
+    line-height: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 960px;
+    }
+    
+    header {
+        width: 960px;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    aside {
+        width: 200px;
+        height: 600px;
+        line-height: 600px;
+    }
+
+    main {
+        width: 760px;
+        height: 600px;
+        float: left;
+    }
+
+    section {
+        width: 380px;
+        height: 200px;
+        line-height: 200px;
+        float: left;
+    }
+
+    article {
+        width: 190px;
+        height: 250px;
+        line-height: 250px;
+    }
+
+    footer {
+        width: 760px;
+        height: 150px;
+        line-height: 150px;
+    }
+}
