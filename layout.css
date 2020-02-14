@@ -11,6 +11,7 @@ aside {
 section {
     height: 125px;
     line-height: 125px;
+    width: 480px;
 }
 
 article {
@@ -21,12 +22,15 @@ article {
 
 footer {
     height:80px;
+    width: 480px;
     line-height: 80px;
 }
 
 @media only screen and (min-width: 768px) {
     body {
         width: 960px;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     header {
@@ -44,14 +48,13 @@ footer {
     main {
         width: 760px;
         height: 600px;
-        float: left;
+        justify-content: flex-end;
     }
 
     section {
         width: 380px;
         height: 200px;
         line-height: 200px;
-        float: left;
     }
 
     article {
